@@ -8,9 +8,10 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
-import { AddBoxOutlined, SubjectOutlined } from "@material-ui/icons";
+// import { AddBoxOutlined, SubjectOutlined } from "@material-ui/icons";
 // import { useNavigate } from "react-router-dom";
 import { Box } from "@mui/material";
+import Header from "../Header/Header";
 
 const drawerWidth = 200;
 
@@ -41,7 +42,7 @@ export default function Layout() {
 	const menuItems = [
 		{
 			text: "Dashboard",
-			icon: <SubjectOutlined color="secondary" fontSize="7px" />,
+			// icon: <SubjectOutlined color="secondary" fontSize="7px" />,
 			path: "/",
 		},
 		{
@@ -79,7 +80,7 @@ export default function Layout() {
 			icon: <AddCircleOutlineIcon color="secondary" fontSize="7px" />,
 			path: "/",
 		},
-		
+
 		{
 			text: "Analytics",
 			icon: <AddCircleOutlineIcon color="secondary" fontSize="7px" />,
@@ -95,32 +96,16 @@ export default function Layout() {
 			icon: <AddCircleOutlineIcon color="secondary" fontSize="7px" />,
 			path: "/",
 		},
-		
-	
-
-		
-
-		
-
 	];
 	return (
 		<div className={classes.root}>
 			{/* app bar */}
-			<Box
-				sx={{
-					backgroundColor: "primary.main",
-					marginLeft: "18.5rem",
-					color: "black",
-					height: "50px",
-					'&:hover': {
-						backgroundColor: "grey"
-					}
-				}}
-			>
-				<Typography>
-					Welcome to Branddrive webbsitedjscoj kjiodj9p jhsuihoq
+			
+			
+				<Typography style={{}}>
+				<Header/>
 				</Typography>
-			</Box>
+			
 
 			{/* side drawer */}
 			<Drawer

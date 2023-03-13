@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const SideBtn = () => {
-  return (
-    <div >
-          <button className = "sideBtn">me</button>
-    </div>
-  )
-}
+	return (
+		<div>
+			<button className="sideBtn">me</button>
+		</div>
+	);
+};
 
-export default SideBtn
+export default SideBtn;
