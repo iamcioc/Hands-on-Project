@@ -1,11 +1,13 @@
 import "./App.css";
-import Sidebar from "./component/Sidebar/Sidebar";
-import Layout from "./component/Layout/Layout";
+import DashboardLayout from "./pages/DashboardLayout";
 
 function App() {
 	return (
-		<div className="App" style={{ width: "100vw", height: "100vh" }}>
-			<Layout />
+		<div
+			className="App"
+			style={{ width: "100vw", height: "100vh", text: "center" }}
+		>
+			<DashboardLayout />
 		</div>
 	);
 }

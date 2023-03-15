@@ -1,22 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
 }
 
-.sidebar {
-	background-color: #f4f5f9;
-	position: fixed;
 
-	padding: 0 10px;
-}
-
-.sideBtn {
-	width: 25px;
-	height: 25px;
-	border-radius: 50px;
-	margin: 7px 0px;
-}
-
-.lowerSideBtn {
-	padding: 27rem 0;
-}
